@@ -1,0 +1,36 @@
+body {
+  background-color: whitesmoke;
+}
+.App{
+  display: flex ;
+  flex-direction : column;
+  justify-content: space-around;
+  height: 100%;
+  min-height: 100vh;
+}
+.items{
+  flex: 1; 
+}
+.search-field.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 11em;
+}
+
+.text-search {
+  border: 2px solid rgb(215, 54, 121);
+  border-radius: 6px;
+  height: 40px;
+  max-width: calc(100%);
+  min-width: calc(30%);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+
+}
+.movie-list-field{
+  /* margin : 100px 300px 0 300px; */
+  padding-left: 11em;
+  padding-right: 11em;
+}

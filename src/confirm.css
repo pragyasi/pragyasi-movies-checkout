@@ -1,0 +1,28 @@
+.checkout , .confirm-button{
+    position: fixed;
+    bottom:0;
+    width : 300px;
+    color : white;
+    font-size: 20px ;
+    font-weight : bold;
+    background-color:rgb(65, 65, 198);
+    height : 80px;
+    font-family: Poppins,sans-serif;
+}
+.confirm-text{
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.confirm-button{
+    display: inline-block;
+    position: absolute;
+    width : 80px;
+    height : 30px;
+    bottom: 10px;
+}
+.confirm{
+   left : 50px;
+}
+.cancel{
+    right : 50px;
+}
